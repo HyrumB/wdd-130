@@ -2,7 +2,7 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Hind+Vadodara&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -12,8 +12,8 @@ Fonts are separated by a | */
   --accent2-color: #DFE2DF;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon SC";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --heading-font: "Gugi";
+  --paragraph-font: "Hind Vadodara";
 
   /* these colors below should be chosen from among your palette colors above */
   background-color: #121216;
@@ -23,9 +23,9 @@ Fonts are separated by a | */
   --paragraph-color-on-white: #51B867; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #DFE2DF; /* paragraph text on a colored background */ 
   --paragraph-background-color: #F55A00  ;
-  --nav-link-color: #BFC5BF;
+  --nav-link-color: #DFE2DF;
   --nav-background-color: #F55A00;
-  --nav-hover-link-color: #DFE2DF;
+  --nav-hover-link-color: #121216;
   --nav-hover-background-color: #F55A00;
 }
 
