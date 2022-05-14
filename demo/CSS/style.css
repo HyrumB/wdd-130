@@ -1,16 +1,45 @@
     /* yoo im a CSS comment */
-    body{
-        font-family: 'Press Start 2P', cursive, mono, ;
+    h1 {
+        color: black;
+    }
+
+    h1:hover {
+        color: white;
     }
 
     p {
-        font-size: 50px ;
+        color: white;
     }
 
-    .purple{
-        color:purple
+    body {
+        background-color: hotpink;
     }
-    
-    #fine-print{
-        font-size:10px ;
+
+    #quote2{ 
+
+        margin: 0 auto;
+        font-size: 40px;
+        max-width: 350px;
+    }
+
+    article {
+        text-align: center;
+    }
+
+    article ol {
+        margin: 25px auto;
+        max-width: 600px;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    article img {
+        max-width: 300px;
+        height: auto;
+    }
+
+    figcaption cite {
+        display: block;
+        color:black;
+        font-weight: bolder;
     }
