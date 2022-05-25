@@ -1,0 +1,50 @@
+body{
+    
+}
+
+#title-card{
+    display: grid;
+    grid-template-columns: 90px 1fr 20px;
+    grid-template-rows: 200px auto auto 60px;
+    grid-template-areas:
+    "empty1 empty1 empty1"
+    "empty2 h1 empty3"
+    "empty4 h2 empty5"
+    "empty6 empty6 empty6";
+    border-bottom: 1px solid #000;
+}
+#title-card h1{
+    grid-area: h1;
+    text-align: right;
+    font-weight: bold;
+    /* padding: 0 60px; */
+}
+#title-card h2{
+    grid-area: h2;
+    text-align: right;
+    font-weight: bold;
+    /* padding: 0 60px 60px 60px; */
+}
+.card-holder{
+    align-content: center;
+    
+}
+
+.card-holder .card {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    padding: 0;
+    border: 10px solid #000;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.card-holder img{
+max-width: 100%;
+height: auto;
+}
