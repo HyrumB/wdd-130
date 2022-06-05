@@ -33,12 +33,7 @@ main {
 }
 
 main article{
-    background-color: aliceblue;
-    min-width: 120;
-    margin: 20px;
-    padding: 15px;
-    border: 1px solid #000;
-
+margin:initial;
 
 }
 
@@ -49,28 +44,23 @@ footer {
 /* media rules always appear on bottom */
 @media (min-width: 768px) {
 
-    main .content{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 20px;
+    header{
+        background-color: darkcyan;
     }
-
-    main article {
-        margin-bottom: initial;
+    
+    main {
+        background-color: darkslategray;
+    
     }
-
-}
-
-@media (min-width: 1024px) {
 
     main .content{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 20px;
     }
-
-    main article {
-        margin-bottom: initial;
+    
+    footer {
+        background-color: darkcyan;
     }
 
 }
