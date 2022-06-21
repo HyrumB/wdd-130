@@ -234,6 +234,42 @@ footer .social img {
     opacity: .6;
     transform: scale(1.1);
 }
+/* pg2 styles */
+
+article{
+    /* background-color: #F55A00; */
+    max-width:  500px;
+    color: #51B867;
+    /* font-size: smaller; */
+    text-align: left;
+}
+.rocket-grid div {
+    margin-bottom: 20px;
+}
+
+.rocket-grid div img{
+    width:500px;
+    height:auto; 
+    
+    display: inline-block;
+    /* border: 1px solid rgb(255, 0, 0); */
+}
+
+div article{
+    display: inline-block;
+    /* border: 1px solid rgb(255, 0, 0); */
+}
+
+.rocket-grid h2{
+    margin-bottom: 20px;
+}
+
+.pg_title h1{
+    font-size: 70px;
+    margin-bottom: 60px;
+}
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
