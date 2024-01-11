@@ -1,3 +1,4 @@
 # wdd-130
-collage web dev classwork and assignments
+work from my collage intro to web development course
+
 
